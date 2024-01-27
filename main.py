@@ -9,7 +9,7 @@ openai.api_key = os.environ.get("OPENAI_API_KEY")
 intents = discord.Intents.default()
 intents.message_content = True
 
-DISCORD_BOT_TOKEN = os.environ['DISCORD_BOT_TOKEN']
+DISCORD_BOT_TOKEN = os.environ['MTIwMDM1NDkzNjAxNDI2MjI3Mg.GxIWJ4.MNnT8Kp7WdI03-PYroPxVSltLXNcxMCdZbrS6A']
 
 client = discord.Client(intents=intents)
 
